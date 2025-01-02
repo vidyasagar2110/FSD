@@ -1,5 +1,5 @@
 let user={
-    name:"cyrus",
+    name:"Sagar",
     age:18,
 
     sayhi:function(){

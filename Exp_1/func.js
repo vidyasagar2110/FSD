@@ -1,4 +1,4 @@
-sayhi('Kratos');
+sayhi('Vidya');
 function sayhi(name){
     console.log(`hi ${name}`);
 }
@@ -7,8 +7,8 @@ function sayhi(name){
 let sayhii=function(name){
     console.log(`Hi ${name}`)
 }
-sayhii("Cyrus")
+sayhii("Sagar")
 
 //arrow function
 let sayhiii=(name)=>console.log(`hi ${name}`);
-sayhiii("Zeus")
+sayhiii("Reddy")

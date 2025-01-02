@@ -1,5 +1,5 @@
 let user = {
-    name:"cyrus",
+    name:"Vidya",
     age:18,
     sizes:{
         width:10,
@@ -13,7 +13,7 @@ user2 = Object.assign({},user);
 console.log(user===user1)
 console.log(user2===user)
 
-user1.name="zeus"
+user1.name="Sagar"
 
-user2.name="Apollo"
+user2.name="Reddy"
 console.log(user.name)

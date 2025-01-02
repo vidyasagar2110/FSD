@@ -1,4 +1,4 @@
-console.log("hello world");
+console.log("Hello World");
 let a = 19;
 console.log(typeof a);
 console.log('2' > 1);
@@ -14,10 +14,10 @@ else{
 console.log(a>18 ? 'Yes' : 'No')
 
 let age=('enter your age',19);
-let message=(age<18)?'minor':
-        (age>18)?'adult':
-        (age>40)?'uncle':
-        (age>60)?'thatha':
+let message=(age<18)?'Minor':
+        (age>18)?'Adult':
+        (age>40)?'Middle Aged':
+        (age>60)?'Senior citizen':
         'invalid age';
 console.log(message);
 

@@ -1,10 +1,10 @@
 let user  = {
-    name:"Cyrus",
+    name:"Vidya",
     age : 18
 }
 
 admin = user;
-admin.name="Zeus"
+admin.name="Sagar"
 
 console.log(admin.name)
 console.log(user.name)
