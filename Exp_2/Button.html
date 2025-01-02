@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+</head>
+<body>
+    <h1 style="background-color: aquamarine;">Good Morning KLH</h1>
+    <p id="para1">Hello World</p>
+    <p class="myclass1">Hello Y23</p>
+    <p class="myclass1">Hello Y22</p>
+
+    <button onclick="myFunction()">Enter the Function</button>
+
+    <script>
+
+        function myFunction(){
+        alert("Hello World")
+        document.getElementById("para1").innerHTML = "Hello KLH"
+        document.getElementsByTagName("h1")[0].innerHTML="Good Morning Hyderabad"
+        document.getElementsByClassName("myclass1")[1].innerHTML="Hello Y21"
+
+        }
+
+        
+    </script>
+    
+</body>
+</html>
